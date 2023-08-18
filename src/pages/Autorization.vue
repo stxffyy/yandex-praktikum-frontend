@@ -38,7 +38,7 @@ export default {
             };
 
             try {
-                const response = await fetch('http://46.17.104.99:8888/', {
+                const response = await fetch('https://yandex-praktikum-backend.glitch.me/auth/login', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

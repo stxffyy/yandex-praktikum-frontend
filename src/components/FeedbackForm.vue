@@ -31,7 +31,7 @@ export default {
     methods: {
         async submitForm() {
             try {
-                const response = await fetch('http://46.17.104.99:8888//feedback/', {
+                const response = await fetch('https://yandex-praktikum-backend.glitch.me/feedback', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

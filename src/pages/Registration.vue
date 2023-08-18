@@ -48,7 +48,7 @@ export default {
       };
 
       try {
-        await fetch('http://46.17.104.99:8888/', {
+        await fetch('https://yandex-praktikum-backend.glitch.me/auth/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

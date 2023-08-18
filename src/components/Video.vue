@@ -14,7 +14,7 @@
 <script>
 export default {
   data() {
-    return { videoUrl: 'http://46.17.104.99:8888/video' }
+    return { videoUrl: 'https://yandex-praktikum-backend.glitch.me/video' }
   }
 };
 </script>
